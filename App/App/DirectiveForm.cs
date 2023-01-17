@@ -8,9 +8,8 @@ namespace App
 {
     internal class DirectiveForm
     {
-        public Service Service { get; set; }
-
-        public PrimaryTube PrimaryTube { get; set; }
+        List<Service> services = new List<Service>();
+        List<PrimaryTube> primaryTubes = new List<PrimaryTube>();
 
     }
 }

@@ -8,6 +8,6 @@ namespace App
 {
     internal class Sticker
     {
-        Consumable Consumable { get; set; }
+        
     }
 }

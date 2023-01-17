@@ -8,6 +8,8 @@ namespace App
 {
     internal class ResearchOrder
     {
-
+        List<DirectiveForm> forms = new List<DirectiveForm>();
+        List<PrimaryTube> primaryTubes = new List<PrimaryTube>();
+        List<ResearchOrder> researchOrders = new List<ResearchOrder>();
     }
 }

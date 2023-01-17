@@ -8,10 +8,18 @@ namespace App
 {
     internal class PrimaryTube
     {
-        ResearchOrder order;
+        List<Service> services = new List<Service>();
+        List<DirectiveForm> forms = new List<DirectiveForm>();
+        Biomaterial biomaterial;
+        Consumable consumable;
+        Sticker sticker;
+
         public PrimaryTube()
         {
-            order = new ResearchOrder();
+            biomaterial = new Biomaterial();
+            consumable = new Consumable();
+            sticker = new Sticker();
+
         }
     }
 }

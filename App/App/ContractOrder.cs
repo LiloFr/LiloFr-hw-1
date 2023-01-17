@@ -9,14 +9,13 @@ namespace App
     internal class ContractOrder
     {
         Check check;
-
         public ContractOrder(Check check)
         {
             this.check = check;
         }
 
-        public Service Service { get; set; }
-        public DirectiveForm DirectiveForm { get; set; }
+        List<Service> services = new List<Service>();
+        
 
     }
 }

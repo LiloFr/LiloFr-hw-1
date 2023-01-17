@@ -8,10 +8,6 @@ namespace App
 {
     internal class Biomaterial
     {
-        PrimaryTube tube;
-        public Biomaterial()
-        {
-            tube = new PrimaryTube();
-        }
+     
     }
 }
