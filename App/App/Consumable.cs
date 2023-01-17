@@ -8,6 +8,6 @@ namespace App
 {
     internal class Consumable
     {
-
+        public string Name { get; set; }
     }
 }

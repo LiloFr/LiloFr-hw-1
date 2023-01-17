@@ -8,6 +8,9 @@ namespace App
 {
     internal class PrintedSignature : Sticker
     {
+        public string Fullname { get; set; }
+        public int TubeId { get; set; }
+        public string CollectionDate { get; set; }
 
     }
 }

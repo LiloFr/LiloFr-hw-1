@@ -10,6 +10,6 @@ namespace App
     {
         List<DirectiveForm> forms = new List<DirectiveForm>();
         List<PrimaryTube> primaryTubes = new List<PrimaryTube>();
-        List<ResearchOrder> researchOrders = new List<ResearchOrder>();
+        List<ContractOrder> contractOrders = new List<ContractOrder>();
     }
 }

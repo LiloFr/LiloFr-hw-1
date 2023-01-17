@@ -10,6 +10,7 @@ namespace App
     {
         List<Service> services = new List<Service>();
         List<DirectiveForm> forms = new List<DirectiveForm>();
+        public ResearchOrder ResearchOrder { get; set; }
         Biomaterial biomaterial;
         Consumable consumable;
         Sticker sticker;

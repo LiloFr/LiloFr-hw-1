@@ -9,7 +9,7 @@ namespace App
     internal class Service
     {
         List<PrimaryTube> primaryTubes = new List<PrimaryTube>();
-        List<ResearchOrder> researchOrder = new List<ResearchOrder>();
+        List <ContractOrder> contractOrders = new List<ContractOrder>();
         public DirectiveForm DirectiveForm { get; set; }
     }
 }

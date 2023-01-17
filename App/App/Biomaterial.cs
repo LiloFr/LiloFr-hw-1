@@ -8,6 +8,7 @@ namespace App
 {
     internal class Biomaterial
     {
-     
+        public string Name { get; set; }
+        public string CollectionRules { get; set; }
     }
 }

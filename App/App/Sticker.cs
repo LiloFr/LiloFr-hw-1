@@ -8,6 +8,6 @@ namespace App
 {
     internal class Sticker
     {
-        
+        public int ClinicDetails { get; set; }
     }
 }

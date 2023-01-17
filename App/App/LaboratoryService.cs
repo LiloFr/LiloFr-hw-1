@@ -8,6 +8,8 @@ namespace App
 {
     internal class LaboratoryService : Service
     {
+        public int Id { get; set; }
+        public int Price { get; set; }
 
     }
 }

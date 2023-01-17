@@ -8,6 +8,6 @@ namespace App
 {
     internal class AdditionalService : Service
     {
-
+        public string PercentOfDeductions {  get; set; }
     }
 }
